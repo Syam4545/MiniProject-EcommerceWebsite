@@ -1,0 +1,20 @@
+#navbarNav {
+    justify-content: end;
+    padding-right: 2%;
+}
+
+.smry{
+    text-align: right;
+
+}
+
+h4:hover{
+    color: blue;
+
+text-decoration: underline;
+
+}
+
+.radiobg:hover{
+    background-color:azure;
+}

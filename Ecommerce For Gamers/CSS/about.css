@@ -1,0 +1,25 @@
+#navbarNav {
+    justify-content: end;
+    padding-right: 2%;
+}
+h3{
+    color: rgb(94, 94, 94);
+}
+#btnshop:hover{
+background-color: rgb(144, 0, 255);
+}
+
+#div1{
+    /* background-image:url(..//IMAGES/background1.png); */
+}
+#newsletter{
+    margin:  auto;
+}
+
+.input1{
+    padding: 5px;
+}
+
+.checked {
+    color: orange;
+  }

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shipping Details</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="..//CSS/shipping_details.css" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow p-1 bg-white rounded">
+    <div class="container-fluid">
+      <a class="navbar-brand mb-1" href="#">
+        <img class="ms-4" src="..//IMAGES/logo.png" height="30px" alt="" />
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item mt-1">
+            <a class="nav-link active" aria-current="page" href="#">
+              <b>HOME </b>
+            </a>
+          </li>
+          <li class="nav-item ms-5 mt-1">
+            <a class="nav-link" href="#"> <b> ABOUT </b></a>
+          </li>
+          <li class="nav-item ms-5 mt-1">
+            <a class="nav-link" href="#"> <b>SHOP </b> </a>
+          </li>
+          <li class="nav-item ms-5 mt-1">
+            <a class="nav-link" href="#"> <b>HELP </b> </a>
+          </li>
+          <li class="nav-item ms-5 mb-2">
+            <button class="btn btn-dark text-white ms-1 me-1 mt-1">
+              <i class="fa-solid fa-cart-shopping"></i>
+              Your Cart
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container-fluid mt-5 mb-5">
+    <div class="row">
+      <div class="col-sm-4 text-center">
+        <h4>1.Shopping Cart</h4>
+      </div>
+      <div class="col-sm-4 text-center">
+        <h4>2.Shipping Details</h4>
+      </div>
+      <div class="col-sm-4 text-center">
+        <h4>3.Payment Options</h4>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid p-5 mt-5 shadow ">
+    <div class="row d-flex align-items-center">
+      <div class="col-sm-8">
+        <b>Shipping Details</b>
+
+        <div class="container">
+          <div class="row mt-4">
+            <div class="col-sm-6">
+              <input type="text" class="w-100" placeholder="First Name" />
+            </div>
+            <div class="col-sm-6 d-flex justify-content-end">
+              <input type="text" class="w-100" placeholder="Last Name" />
+            </div>
+          </div>
+          <input type="text" class="w-100 mt-3" placeholder="Address" />
+          <input type="text" class="w-100 mt-3" placeholder="Address1" />
+
+          <div class="row mt-3">
+            <div class="col-sm-6">
+              <select name="" id="" class="w-100">
+                <option value="">Country</option>
+              </select>
+            </div>
+            <div class="col-sm-6">
+              <input type="text" class="w-100" />
+            </div>
+          </div>
+
+          <div class="row mt-3">
+            <div class="col-sm-6">
+              <input type="text" class="w-100" placeholder="Zip/Postal Code" />
+            </div>
+            <div class="col-sm-6 d-flex justify-content-end">
+              <input type="text" class="w-100" placeholder="Phone No" />
+            </div>
+          </div>
+
+          <div class="mt-5 mb-5 border"></div>
+
+          <div class="row ">
+            <div class="col-sm-6 border radiobg" >
+
+              <div class="row">
+                <div class="col-sm-1 d-flex align-items-center">
+                  <input class="" type="radio">
+                </div>
+                <div class="col-sm-11 "> <b>Free Shipping</b> <br>Between 2-4 Woring days </div>
+              </div>
+
+            </div>
+
+            <div class="col-sm-6 border radiobg" >
+              <div class="row">
+                <div class="col-sm-1 d-flex align-items-center">
+                  <input class="" type="radio">
+                </div>
+                <div class="col-sm-11 "> <b>Next Day Delivery-$20</b> <br>24 Hours from checkout</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-5 mb-5 border"></div>
+          <div class="row">
+            <div class="col-sm-6">
+              <button class=" btn btn-primary w-100">Next</button>
+            </div>
+            <div class="col-sm-6">
+              <button class=" btn btn-danger w-100">Cancel</button>
+
+            </div>
+
+          </div>
+  
+          
+
+
+        </div>
+      </div>
+
+      <div class="col-sm-4 shadow p-5 rounded">
+        <p class="text-center mb-4"><b>SUMMARY</b></p>
+        <div class="mt-1 mb-4 border"></div>
+
+        <div class="row">
+          <div class="col-sm-5">
+            <img src="..//IMAGES/mens.png" height="150" alt="" />
+          </div>
+          <div class="col-sm-7 d-flex align-items-center">
+            Product Name <br />
+            $300
+          </div>
+        </div>
+
+        <div class="row mt-5">
+          <div class="col-sm-5">
+            <img src="..//IMAGES/mens.png" height="150" alt="" />
+          </div>
+          <div class="col-sm-7 d-flex align-items-center">
+            Product Name <br />
+            $300
+          </div>
+        </div>
+
+        <div class="mt-4 mb-2 border"></div>
+        HAVE A VOUCHER ?
+        <div class="mt-2 mb-2 border"></div>
+
+        <div class="row">
+          <div class="col-sm-6">SUBTOTAL</div>
+
+          <div class="col-sm-6 smry">$600</div>
+        </div>
+        <br />
+
+        <div class="row">
+          <div class="col-sm-6">SHIPPING</div>
+          <div class="col-sm-6 smry">FREE</div>
+        </div>
+        <br />
+
+        <div class="row">
+          <div class="col-sm-6">TAXES</div>
+          <div class="col-sm-6 smry">$13</div>
+        </div>
+        <br />
+
+        <div class="row border-top">
+          <div class="col-sm-6 mt-2">
+            <b>TOTAL</b>
+          </div>
+          <div class="col-sm-6 text-right smry mt-2">
+            <b>$613</b>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>

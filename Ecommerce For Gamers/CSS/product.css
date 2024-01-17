@@ -1,0 +1,29 @@
+#navbarNav {
+    justify-content: end;
+    padding-right: 2%;
+}
+
+
+/* .product{
+    border: 2px solid;
+    
+} */
+
+
+
+.checked {
+    color: orange;
+}
+.price{
+    font-size: 22px;
+    /* text-align: center; */
+}
+.price1{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+#row11{
+    margin: auto auto;
+}
